@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>SlimeOs</title>
 </head>
 <body>
-    <h1>Welcome to SlimeOs</h1>
-    <p>Welcome this me trying to make my first web os</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVBsutfKszqhYIMXg59fqrkKgmKScQdpWbw&s" alt="">
+    <div class="background"></div>
+
+    <header class="topbar">
+        <div class="badge" id="tabopen"> Jura Tempest Federation</div>
+        <div class="badge center-badge"> Rimuru Tempest</div>
+        <div class="badge time" id="clock"></div>
+    </header>
+
+    <div id="desktopApps">
+        <div class="desktop-icon" id="slimeIcon">
+            <img src="rimuru.png" alt="SlimeOs">
+            <p>SlimeOs</p>
+        </div>
+
+        <div class="desktop-icon" id="aboutIcon">
+            <img src="about.png" alt="About">
+            <p>About</p>
+        </div>
+        
+        <div class="desktop-icon" id="characterIcon">
+            <img src="character.png" alt="Characters">
+            <p>Characters</p>
+        </div>
+    </div>
+    
+    <div class="tab" id="tab-home">
+        <div class="titlebar">
+            <span>SlimeOs</span>
+            <button class="tabclose">✕</button>
+        </div>
+        
+        <div class="content">
+            <img class="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVBsutfKszqhYIMXg59fqrkKgmKScQdpWbw&s" alt="profile">
+            <div class="title">SlimeOs</div>
+            <div class="description">
+                The unofficial encyclopedia of <br>
+                That Time I Got Reincarnated as a Slime.
+
+                Explore characters, nations,<br>
+                skills, races, demon lords,<br>
+                timelines, and world lore.
+            </div>
+        </div>
+    </div>
+
+    <div class="tab" id="tab-about">
+        <div class="titlebar">
+            <span>SlimeOs</span>
+            <button class="tabclose">✕</button>
+        </div>
+        
+        <div class="content">
+            <img src="" alt="">
+            <div class="title">About SlimeOS</div>
+
+            <div class="description">
+                SlimeOS is a desktop-style encyclopedia dedicated to
+                That Time I Got Reincarnated as a Slime (Tensura).
+
+                <br><br>
+
+                Explore:
+                <ul>
+                    <li>Characters</li>
+                    <li>Nations</li>
+                    <li>Demon Lords</li>
+                    <li>Skills & Abilities</li>
+                    <li>World Lore</li>
+                    <li>Timelines</li>
+                </ul>
+            
+                <br>
+            
+                Current Version: v0.1 Alpha
+                <br>
+                Administrator: Rimuru Tempest
+            </div>
+        </div>
+    </div>
+
+    <div class="tab" id="tab-characters">
+        <div class="titlebar">
+            <span>Characters</span>
+            <button class="tabclose">✕</button>
+        </div>
+
+        <div class="content">
+            <h2>Featured Characters</h2>
+
+            <ul>
+                <li>Rimuru Tempest</li>
+                <li>Benimaru</li>
+                <li>Shion</li>
+                <li>Shuna</li>
+                <li>Diablo</li>
+                <li>Veldora</li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+        
 </body>
 </html>
